@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="Intro.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div id="container" class="clearfix">
+        <div class="content">
+            <div class="left">
+                <div class="avatar">
+                    <img style="height: 330px; width: 300px; border-radius:30% ;" src="E:\GHTK\image\anh.jpg" alt="">
+                    
+                    <br><strong  >NGUYỄN THỊ NGỌC ÁNH</strong>
+                    <P>Master Dev domain Web Backend</P>
+                </div>
+                <div class="avatar-bottom">
+                    <ul style="list-style-type:none">
+                        <li><i class="fas fa-birthday-cake"></i>21/01/2000</li>
+                        <li><i class="fas fa-female"></i>Nữ</li>
+                        <li><i class="fab fa-viber"></i>0986971908</li>
+                        <li><i class="fas fa-address-card"></i>anhzipmta@gmail.com</li>
+                        <li><i class="fas fa-home"></i>Mỹ Đình 2,Nam Từ Liêm,HN</li>
+                    </ul>
+                    <h3>MỤC TIÊU</h3>
+                    <p>Được làm việc và học hỏi trong môi trường thực tế,có thêm kinh nghiệm làm việc</p>
+                    <br>
+                    <h3>SỞ THÍCH</h3>
+                    <P>Xem phim,nghe nhạc,đọc sách</P>
+                    
+                </div>
+            </div>
+            <div class="right">
+                <div class="education">
+                    <h3><i class="fas fa-graduation-cap"></i>HỌC VẤN</h3>
+                    <strong>HỌC VIỆN KĨ THUẬT QUÂN SỰ</strong>
+                    <p>Sinh viên năm 4</p>
+                    <p>Chuyên ngành:Công nghệ dữ liệu</p>
+                </div>
+                <hr>
+                <div class="action">
+                    <h3><i class="fas fa-user-friends"></i>HOẠT ĐỘNG</h3>
+                    <strong>NHÓM TÌNH NGUYỆN,CLB SÁCH VÀ HÀNH ĐỘNG</strong>
+                    <P>Vị trí:Thành viên CLB</P>
+                    <p>Tập hợp các món quà và phân phát tới người dân vô gia cư</p>
+                    <p>-Chia sẻ họ vượt qua giai đoạn khó khăn,giúp họ có những suy nghĩ lạc quan</p>
+                    <p>-Tham gia các hoạt động ,vận động đóng góp gây quỹ</p>
+                </div>
+                <hr>
+                <div class="skill">
+                    <h3><i class="fas fa-book-reader"></i>KĨ NĂNG</h3>
+                    <p>Ngôn ngữ lập trình :C++,Java,C#</p>
+                    <strong>Về frontend</strong>
+                    <p> Có kiến thức cơ bản html/css/js,boostrap</p>
+                    <strong>Backend ( java )</strong>
+                    <p> Javacore,OOP,spring</p>
+                </div>
+                <button  class="More" >Xem thêm</button>
+                
+                <div class="see-more" style="display: none; ">
+                    <p>Đã được tiếp cận</p>
+                    <p>CSDL:SQL server,mySQL,MonggoDB</p>
+                    <p>Cấu trúc dữ liệu và giải thuật</p>
+                    <button class="close">Ẩn</button>
+                </div>
+                <hr>
+                <div class="demo">
+                    <h3><i class="far fa-folder"></i>SẢN PHẨM</h3>
+                    <p>Github:NgocAnh21012000</p>
+                    <a href="https://github.com/Ngocanh21012000">Truy cập tại đây</a>
+                </div>
+    
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+</body>
+<script>
+    $(document).ready(function(){
+// Hiệu ứng click hiện ra html
+$(".More").on("click",function(){
+    $(".More").css("display","none");
+
+    $(".see-more").css("display","block");
+})
+$(".close").on("click",function(){
+    $(".More").show();
+    $(".see-more").css("display","none");
+
+})
+    })
+
+</script>
+
+</html>

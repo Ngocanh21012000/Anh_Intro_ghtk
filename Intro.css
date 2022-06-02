@@ -1,0 +1,46 @@
+*{
+    margin:inherit;
+   padding: 0;
+}
+.left{
+    float: left;
+    width: 400px;
+    background-color: bisque;
+    height: 100%;
+
+}
+.right{
+    float: right;
+    width: 600px;
+    padding: 10px;
+
+}
+.clearfix{
+    clear: both;
+    content: "";
+    display: block;
+}
+#container{
+ 
+    max-width: 1170px;
+	width: 100%;
+	margin: auto;
+   
+    
+}
+.content{
+    
+   
+    width: 1200px;
+    
+    height: 1000px;
+    margin: 10px;
+    
+}
+body {
+	line-height: 1.625;
+	font-size: 16px;
+	color: #263238;
+	font-family: 'Roboto Slab', serif;
+	-webkit-font-smoothing: antialiased;
+}
